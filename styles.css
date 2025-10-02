@@ -1,0 +1,21 @@
+:root {
+    --bs-body-font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+
+.navbar-brand img {
+    height: 30px;
+    width: auto;
+}
+
+
+.carousel-item img {
+    height: 400px;
+    object-fit: cover;
+}
+
+
+.card img {
+    height: 200px;
+    object-fit: cover;
+}

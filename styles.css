@@ -1,21 +1,88 @@
 :root {
+    --gray-100: #f8f9fa;
+    --gray-200: #e9ecef;
+    --gray-300: #dee2e6;
+    --gray-400: #ced4da;
+    --gray-500: #adb5bd;
+    --gray-600: #6c757d;
+    --gray-700: #495057;
+    --gray-800: #343a40;
+    --gray-900: #212529;
+
     --bs-body-font-family: "Plus Jakarta Sans", sans-serif;
 }
 
+body {
+    background-color: var(--gray-900);
+    color: var(--gray-100);
+}
+
+.navbar {
+    background-color: var(--gray-800);
+}
+.navbar .nav-link {
+    color: var(--gray-100);
+}
+.navbar .nav-link:hover {
+    color: var(--gray-300);
+}
 
 .navbar-brand img {
     height: 30px;
     width: auto;
 }
 
+.form-control {
+    background-color: var(--gray-700);
+    border: none;
+    color: var(--gray-100);
+}
+.form-control::placeholder {
+    color: var(--gray-500);
+}
+.btn-dark {
+    background-color: var(--gray-600);
+    border: none;
+}
+.btn-dark:hover {
+    background-color: var(--gray-500);
+}
+
+h1, h2, h5 {
+    color: var(--gray-100);
+}
 
 .carousel-item img {
     height: 400px;
     object-fit: cover;
 }
+.carousel-caption {
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: .5rem;
+    padding: .5rem;
+}
 
-
+.card {
+    background-color: var(--gray-800);
+    border: 1px solid var(--gray-700);
+    color: var(--gray-100);
+}
 .card img {
     height: 200px;
     object-fit: cover;
+}
+.card .btn {
+    background-color: var(--gray-600);
+    border: none;
+    color: var(--gray-100);
+}
+.card .btn:hover {
+    background-color: var(--gray-500);
+}
+
+footer {
+    background-color: var(--gray-800);
+    color: var(--gray-400);
+    padding: 1rem 0;
+    text-align: center;
 }
